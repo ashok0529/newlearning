@@ -5,12 +5,8 @@ import org.specs.Specification
   * Created by ashok on 5/30/2016.
   */
 
-class HelloWorld{
-  val helloWorld:String = "Hello World";
-}
-
 object HelloWorldSpec extends Specification {
-/*
+
   "The 'Hello world' string" should {
     "contain 11 characters" in {
       "Hello world" must have size(11)
@@ -22,5 +18,4 @@ object HelloWorldSpec extends Specification {
       "Hello world" must endWith("world")
     }
   }
-  */
 }
